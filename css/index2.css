@@ -1,0 +1,62 @@
+.contenedor{
+    grid-template-columns: 360px 360px 360px 360px;
+    grid-template-rows: 180px 80px 300px 80px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc enc enc'
+    'en en en en'
+    'menu con con pro '
+    'menu con con pro '
+    'pie pie pie pie'
+  ;
+}
+header{
+    background-color: burlywood;
+    grid-area: enc;
+}
+aside{
+    background-color: dodgerblue;
+    grid-area: en;
+}
+main{
+    background-color: aqua;
+    grid-area: menu;
+}
+nav{
+    background-color: blueviolet;
+    grid-area: con;
+}
+div{
+    background-color: rgb(151, 227, 202);
+    grid-area: pro;
+}
+footer{
+    background-color: chocolate;
+    grid-area: pie;
+}
+a{
+    text-decoration: none ;
+    color: rgb(61, 5, 229);
+}
+li{
+    display: inline;
+    justify-content: space-between;
+}
+footer{
+    align-content: center;
+    text-align: center;
+}
+.img{
+    height: 250px;
+    width: 1440px;
+    align-items: center;
+}
+.maje{
+    height: 400px;
+    width: 720px;
+}
+.mm{
+    height: 400px;
+    width: 360px;
+}
+
